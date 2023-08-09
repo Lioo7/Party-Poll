@@ -16,6 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 connect(process.env.MONGODB_URI);
 
 // Routes
+// add routes here
 
 // Start the server
 const server = app.listen(port, () => {
